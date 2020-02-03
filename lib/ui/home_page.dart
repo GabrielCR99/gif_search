@@ -168,11 +168,4 @@ class _HomePageState extends State<HomePage> {
     return json.decode(response.body);
   }
 
-  @override
-  void initState() {
-    super.initState();
-    _getGifs().then((map) {
-      print(map);
-    });
-  }
 }
